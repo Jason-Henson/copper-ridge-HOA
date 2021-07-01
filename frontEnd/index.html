@@ -7,15 +7,17 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Customer CSS -->
+    <link rel="stylesheet" href="style.css">
 
     <title>Copper Ridge Home Owner's Assoication</title>
   </head>
   <body>
     <!-- nav bar --> 
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-end .container-sm">
         <li class="nav-item">
           <a class="btn btn-primary" data-bs-toggle="collapse" href="#boardMembers" role="button" aria-expanded="false" aria-controls="boardMembers">
-            Bord Members
+            Board Members
           </a>
         </li>
         
@@ -24,7 +26,8 @@
           class="btn btn-primary" data-bs-toggle="collapse" href="#ArchitectureCommittee" role="button" aria-expanded="false" aria-controls="ArchitectureCommittee">
           Architecture Committee
           </a>
-        </li>        
+        </li>
+
         <li class="nav-item">
           <a 
           class="btn btn-primary" data-bs-toggle="collapse" href="#CommunityResources" role="button" aria-expanded="false" aria-controls="CommunityResources">
@@ -39,83 +42,99 @@
           </a>
         </li>
       </ul>
-
-    <h1>Copper Ridge Home Owner's Assoication</h1>
+      <div class=".container-fluid">
+        <h1>Copper Ridge HOA</h1>
+      </div>
+    
 
     <!-- Board Members Card-->
-    <div class="collapse" id="boardMembers">
-      <div>
+    <div class="collapse .container-fluid" id="boardMembers">
+      <div class=".container-fluid">
         <h3>Board Members</h3>
       </div>
-      <div class="card card-body">
-        President: Kevin Williams <br/>
-        Email: nmwilliams@comcast.net <br/>
-        Vice President: Keith Barkley <br/>
-        Email: keithbarkley@gmail.com <br/>
-        Secetary: Julie Sigmond <br/>
-        Email: rosie9599@aol.com <br/>
-        Treasuer: Dawna Powell <br/> 
-        Email: dhpowell06@comcast.net
+      <div class="card card-body .container-fluid">
+        <p>
+          President: Kevin Williams <br/>
+          Email: nmwilliams@comcast.net <br/>
+        </p>
+        <p>
+          Vice President: Keith Barkley <br/>
+          Email: keithbarkley@gmail.com <br/>
+        </p>
+        <p>
+          Secetary: Julie Sigmond <br/>
+          Email: rosie9599@aol.com <br/>
+        </p>
+         <p>
+          Treasuer: Dawna Powell <br/> 
+          Email: dhpowell06@comcast.net    
+         </p>        
       </div>
     </div>
 
     <!--Architecture Committee-->
-    <div class="collapse" id="ArchitectureCommittee">
-      <div>
+    <div class="collapse .container-fluid" id="ArchitectureCommittee">
+      <div class=".container-fluid">
         <h3>Architecture Committee</h3>
       </div>
-      <div class="card card-body">
-        Kevin Williams <br/>
-        Email: nmwilliams@comcast.net <br/>
-        Keith Barkley <br/>
-        Email: keithbarkley@gmail.com <br/>
-        Thomas Haynes <br/>
-        Email: thomashaynes@comcast.net
+      <div class="card card-body .container-fluid">
+        <p>
+          Kevin Williams <br/>
+          Email: nmwilliams@comcast.net <br/>
+        </p>
+        <p>
+          Keith Barkley <br/>
+          Email: keithbarkley@gmail.com <br/>
+        </p>
+        <p>
+          Thomas Haynes <br/>
+          Email: thomashaynes@comcast.net
+        </p>        
       </div>
     </div>
 
     <!--Community Resources-->
-    <div class="collapse" id="CommunityResources">
+    <div class="collapse .container-fluid" id="CommunityResources">
       <div>
         <h3>Community Resources</h3>
       </div>
-      <div class="card card-body">
+      <div class="card card-body .container-fluid">
         <!--Covenats-->
-        <div>
-            <h4>Copper Ridge HOA Covenats</h4>
+        <div class=".container-fluid">
+            <h5>Copper Ridge HOA Covenats</h5>
         </div>
-        <div>
+        <div class=".container-fluid"> 
           <a href="./assets/covenants.pdf" target="_blank">Covenats</a>
         </div>
 
         <!--Mailbox and Post-->        
-        <div>
-          <h4>Mail and Post Company</h4>
+        <div class=".container-fluid">
+          <h5>Mail and Post Company</h5>
         </div>
-        <div>
+        <div class=".container-fluid">
           <a href="https://www.ostreetscape.com/" target="_blank">Otto's Streetscape Solutions</a>
         </div>
 
         <!--Archetectual Request Form-->
-        <div>
-          <h4>Archetectual Request Form</h4>
+        <div class=".container-fluid">
+          <h5>Archetectual Request Form</h5>
         </div>
-        <div>
+        <div class=".container-fluid">
           <a href="./assets/archReqForm.pdf" target="_blank" >Archetectual Request Form</a>
         </div>
-        <div>
-          <h4>Paint Schemes(coming soon)</h4>
+        <div class=".container-fluid">
+          <h5>Paint Schemes(coming soon)</h5>
         </div>
       </div>        
     </div>
 
     <!--Announcements-->
-    <div class="collapse" id="announcements">
-      <div>
+    <div class="collapse .container-fluid" id="announcements">
+      <div class=".container-fluid">
         <h3>Announcements</h3>
       </div>
-      <div class="card card-body">
-        <h4>HOA Dues Online Payment(coming soon)</h4>        
+      <div class="card card-body .container-fluid">
+        <h5>HOA Dues Online Payment(coming soon)</h5>        
       </div>
     </div>
 
