@@ -14,21 +14,110 @@
     <!-- nav bar --> 
     <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Board</a>
+          <a class="btn btn-primary" data-bs-toggle="collapse" href="#boardMembers" role="button" aria-expanded="false" aria-controls="boardMembers">
+            Bord Members
+          </a>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link" href="#">Architecture Committee</a>
+          <a 
+          class="btn btn-primary" data-bs-toggle="collapse" href="#ArchitectureCommittee" role="button" aria-expanded="false" aria-controls="ArchitectureCommittee">
+          Architecture Committee
+          </a>
+        </li>        
+        <li class="nav-item">
+          <a 
+          class="btn btn-primary" data-bs-toggle="collapse" href="#CommunityResources" role="button" aria-expanded="false" aria-controls="CommunityResources">
+          Community Resources
+          </a>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link" href="#">Resources</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Announcements</a>
+          <a 
+          class="btn btn-primary" data-bs-toggle="collapse" href="#announcements" role="button" aria-expanded="false" aria-controls="announcements">
+          Announcements
+          </a>
         </li>
       </ul>
 
     <h1>Copper Ridge Home Owner's Assoication</h1>
 
+    <!-- Board Members Card-->
+    <div class="collapse" id="boardMembers">
+      <div>
+        <h3>Board Members</h3>
+      </div>
+      <div class="card card-body">
+        President: Kevin Williams <br/>
+        Email: nmwilliams@comcast.net <br/>
+        Vice President: Keith Barkley <br/>
+        Email: keithbarkley@gmail.com <br/>
+        Secetary: Julie Sigmond <br/>
+        Email: rosie9599@aol.com <br/>
+        Treasuer: Dawna Powell <br/> 
+        Email: dhpowell06@comcast.net
+      </div>
+    </div>
+
+    <!--Architecture Committee-->
+    <div class="collapse" id="ArchitectureCommittee">
+      <div>
+        <h3>Architecture Committee</h3>
+      </div>
+      <div class="card card-body">
+        Kevin Williams <br/>
+        Email: nmwilliams@comcast.net <br/>
+        Keith Barkley <br/>
+        Email: keithbarkley@gmail.com <br/>
+        Thomas Haynes <br/>
+        Email: thomashaynes@comcast.net
+      </div>
+    </div>
+
+    <!--Community Resources-->
+    <div class="collapse" id="CommunityResources">
+      <div>
+        <h3>Community Resources</h3>
+      </div>
+      <div class="card card-body">
+        <!--Covenats-->
+        <div>
+            <h4>Copper Ridge HOA Covenats</h4>
+        </div>
+        <div>
+          <a href="./assets/covenants.pdf" target="_blank">Covenats</a>
+        </div>
+
+        <!--Mailbox and Post-->        
+        <div>
+          <h4>Mail and Post Company</h4>
+        </div>
+        <div>
+          <a href="https://www.ostreetscape.com/" target="_blank">Otto's Streetscape Solutions</a>
+        </div>
+
+        <!--Archetectual Request Form-->
+        <div>
+          <h4>Archetectual Request Form</h4>
+        </div>
+        <div>
+          <a href="./assets/archReqForm.pdf" target="_blank" >Archetectual Request Form</a>
+        </div>
+        <div>
+          <h4>Paint Schemes(coming soon)</h4>
+        </div>
+      </div>        
+    </div>
+
+    <!--Announcements-->
+    <div class="collapse" id="announcements">
+      <div>
+        <h3>Announcements</h3>
+      </div>
+      <div class="card card-body">
+        <h4>HOA Dues Online Payment(coming soon)</h4>        
+      </div>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
