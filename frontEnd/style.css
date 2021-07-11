@@ -1,7 +1,9 @@
-h1 {
-    text-align: center;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+body {
+    background-image: url(./assets/entrance.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .85;
+    min-height: 100vh;
 }
 
 h3 {
@@ -14,4 +16,24 @@ h5 {
 
 #boardMembers, #ArchitectureCommittee, #CommunityResources, #announcements {
     text-align: center;
+}
+
+#entranceWrapper {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: 60%; 
+}
+
+#entrance {
+    display: flexbox;
+    flex-direction: row;
+    background-color: white;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 330px;
+    border-radius:5%;
+    opacity: .80;
 }
